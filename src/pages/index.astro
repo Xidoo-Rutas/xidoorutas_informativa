@@ -1,7 +1,192 @@
 ---
-import Layout from "../layouts/Layout.astro"
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Xidoo Rutas">
-	<h1>ola</h1>
+  <section class="container mx-auto my-12 flex flex-col md:flex-row">
+    <div class="mx-2 text-start md:mr-32">
+      <span class="text-[1rem]"> #conectandolaciudad</span>
+      <h1 class="font-bold text-[#ffde59] -mt-2 text-5xl">Xidoo Rutas</h1>
+      <p class="mt-4 mb-4 md:text-2xl">
+        Somos una aplicación que brinda cuatro servicios;
+      </p>
+
+      <ul class="mb-4">
+        <li class="flex items-center gap-3 text-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-circle-check-filled w-6"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z"
+              stroke-width="0"
+              fill="currentColor"></path>
+          </svg>
+           Servicio de Rutas
+        </li>
+
+        <li class="flex items-center gap-3 text-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-circle-check-filled w-6"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z"
+              stroke-width="0"
+              fill="currentColor"></path>
+          </svg>
+           Rutas culturales
+        </li>
+
+        <li class="flex items-center gap-3 text-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-circle-check-filled w-6"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z"
+              stroke-width="0"
+              fill="currentColor"></path>
+          </svg>
+           Comercios locales
+        </li>
+
+        <li class="flex items-center gap-3 text-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-circle-check-filled w-6"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z"
+              stroke-width="0"
+              fill="currentColor"></path>
+          </svg>
+           Anuncios
+        </li>
+      </ul>
+
+      <p class="md:text-2xl">
+        "Con xidoo rutas puedes llegar a donde quieras, buscar productos de tu
+        agrado y conocer aun mas de la ciudad gracias a sus funciones."
+      </p>
+    </div>
+    <div class="shadow-stone-800 shadow-lg">
+      <img
+        src="https://res.cloudinary.com/dnaokhykr/image/upload/v1694190021/p1_hl4r0s.png"
+        alt=""
+        class="rounded-lg"
+      />
+    </div>
+  </section>
+
+  <div class="w-full bg-black">
+    <div class="mt-40 mx-[10%]">
+      <div class="flex items-center">
+        <div class="">
+          <img
+            src="https://res.cloudinary.com/dnaokhykr/image/upload/v1694197592/1_nyoxe6.gif"
+            alt=""
+          />
+        </div>
+        <div class="md:text-3xl">
+          <h2 class="font-bold text-[#ffde59] text-1xl">Servicio de Rutas</h2>
+          <p>
+            Rutas es un servicio cuya finalidad es ofrecer al publico un espacio
+            en donde pueda consultar las rutas del transporte publico salmantino
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-center">
+        <div class="md:text-3xl">
+          <h2 class="font-bold text-[#ffde59] text-1xl">Rutas Culturales</h2>
+          <p>
+            Rutas es la apuesta por revivir el interes local en los sitios mas
+            emblematicos de la ciudad, tambien pretende hacer llegar los eventos
+            culturales del momento a la ciudadanía.
+          </p>
+        </div>
+        <div class="">
+          <img
+            src="https://res.cloudinary.com/dnaokhykr/image/upload/v1694197594/2_sqv0wa.gif"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="flex items-center">
+        <div class="">
+          <img
+            src="https://res.cloudinary.com/dnaokhykr/image/upload/v1694197590/3_je4jzi.gif"
+            alt=""
+          />
+        </div>
+        <div class="md:text-3xl">
+          <h2 class="font-bold text-[#ffde59] text-1xl">Comercios Locales</h2>
+          <p>
+            Publicitar un negocio para los salmantinos no será un problema, con
+            Xidoo Rutas el comerciante podrá dar a conocer su negocio en la
+            ciudad.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-center">
+        <div class="md:text-3xl">
+          <h2 class="font-bold text-[#ffde59] text-1xl">Anuncios</h2>
+          <p>
+            Tener acceso a información oficial jamás había sido tan sencillo.
+            Xidoo Rutas tiene un espacio para que el público saantino pueda
+            informarse de primera mano lo que acontece día a día en la ciudad
+          </p>
+        </div>
+        <div class="">
+          <img
+            src="https://res.cloudinary.com/dnaokhykr/image/upload/v1694197591/4_meewlv.gif"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <article class="container">
+    <div class="my-20 md:mx-[25%] text-center">
+      <h3 class="text-[#ffde59] text-4xl">Conoce todo lo que Xidoo Rutas ofrece</h3>
+      <p class="text-lg">
+        Tenemos una variedad de servicios pensados especialmente para los
+        salmantinos, cada uno de ellos tiene una utilidad que satisface
+        necesidades que la ciudad ha tenido por años y ahora gracias a la
+        tecnologia podemos resolver.
+      </p>
+    </div>
+  </article>
 </Layout>
