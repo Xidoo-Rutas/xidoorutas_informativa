@@ -1,7 +1,29 @@
 ---
-import Layout from "../layouts/Layout.astro"
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Donaciones">
-    
+  <div
+    class="container mx-auto"
+    transition:animate="fade"
+  >
+    <div class="md:flex items-end ">
+      <img src="https://res.cloudinary.com/dnaokhykr/image/upload/v1694454650/6136974_zeggan.png" alt="" class="md:w-[50%] -mt-10 rounded-xl"/>
+      <div class="mx-[5%]">
+        <h1 class="font-extrabold text-[#ffde59] text-2xl uppercase">Apoya a este proyecto</h1>
+        <p>
+          Con tu donación, podemos impulsar el desarrollo de nuestra aplicación
+          y trabajar en optimizar las rutas, fomentar el comercio local y
+          resaltar los sitios culturales de nuestra hermosa ciudad. ¡Tu
+          contribución marca la diferencia en el progreso de Salamanca!
+        </p>
+        <div class="flex items-center p-6">
+          <a href="https://www.buymeacoffee.com/xidoorutas" target="_blank">
+            <img src="https://xidoorutas.com/Assets/Buymecoffe.png" alt="" class="w-20" />
+          </a>
+          <p>Regálanos un café :)</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </Layout>

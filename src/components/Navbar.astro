@@ -1,16 +1,16 @@
-<nav class="flex items-center justify-evenly p-3 border-b-2 border-[#292828]">
+<nav class="flex items-center justify-evenly p-3 border-b-2 border-[#292828] fixed top-0 left-0 right-0 z-50 bg-[#13151a]">
   <a href="/">
     <img
       src="https://res.cloudinary.com/dnaokhykr/image/upload/v1694183121/favicon_ovcpr8.png"
       alt="Xidoo Rutas"
-      class="w-10"
+      class="w-6 md:w-10"
     />
   </a>
 
   <div class="hidden md:flex gap-20">
     <ul>
       <a
-        href="#_"
+        href="/trajectory1"
         class="relative inline-flex items-center justify-center px-5 py-3 overflow-hidden font-mono font-medium tracking-tighter text-white rounded-lg group hover:text-[#181717] hover:font-bold"
       >
         <span
@@ -22,7 +22,7 @@
 
     <ul>
       <a
-        href="#_"
+        href="/donations"
         class="relative inline-flex items-center justify-center px-5 py-3 overflow-hidden font-mono font-medium tracking-tighter text-white rounded-lg group hover:text-[#181717] hover:font-bold"
       >
         <span
@@ -32,22 +32,35 @@
       </a>
     </ul>
 
-    <ul class="hidden md:block">
+    <ul>
       <a
-        href="#_"
+        href="/team"
         class="relative inline-flex items-center justify-center px-5 py-3 overflow-hidden font-mono font-medium tracking-tighter text-white rounded-lg group hover:text-[#181717] hover:font-bold"
       >
         <span
           class="absolute w-0 h-0 transition-all duration-500 ease-out bg-[#ffde59] group-hover:w-56 group-hover:h-56"
         ></span>
-        <span class="relative"> Iniciar sesión</span>
+        <span class="relative"> Equipo</span>
+      </a>
+    </ul>
+
+    <ul class="hidden md:block">
+      <a
+        href="https://beta.xidoorutas.com/"
+        class="relative inline-flex items-center justify-center px-5 py-3 overflow-hidden font-mono font-medium tracking-tighter text-white rounded-lg group hover:text-[#181717] hover:font-bold"
+        target="_blank"
+      >
+        <span
+          class="absolute w-0 h-0 transition-all duration-500 ease-out bg-[#ffde59] group-hover:w-56 group-hover:h-56"
+        ></span>
+        <span class="relative">Plataforma Xidoo Rutas</span>
       </a>
     </ul>
   </div>
 
-  <div class="flex gap-5 md:hidden">
-    <ul><a href="">Trayectoría</a></ul>
-    <ul><a href="">Donaciones</a></ul>
-    <ul><a href="">Iniciar sesión</a></ul>
+  <div class="flex gap-5 md:hidden text-sm">
+    <ul><a href="/trajectory1">Trayectoría</a></ul>
+    <ul><a href="/donations">Donaciones</a></ul>
+    <ul><a href="https://beta.xidoorutas.com/" target="_blank">Plataforma XR</a></ul>
   </div>
 </nav>

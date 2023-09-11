@@ -3,15 +3,14 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Xidoo Rutas">
-  <section class="container mx-auto my-12 flex flex-col md:flex-row">
+  <section class="container mx-auto my-12 flex flex-col items-center lg:flex-row" transition:animate="fade">
     <div class="mx-2 text-start md:mr-32">
       <span class="text-[1rem]"> #conectandolaciudad</span>
-      <h1 class="font-bold text-[#ffde59] -mt-2 text-5xl">Xidoo Rutas</h1>
-      <p class="mt-4 mb-4 md:text-2xl">
-        Somos una aplicación que brinda cuatro servicios;
-      </p>
+      <h1 class="font-extrabold text-[#ffde59] -mt-2 text-5xl uppercase">
+        Xidoo Rutas
+      </h1>
 
-      <ul class="mb-4">
+      <ul class="mt-4 mb-4">
         <li class="flex items-center gap-3 text-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -93,12 +92,14 @@ import Layout from "../layouts/Layout.astro";
         </li>
       </ul>
 
+      <p class="mb-4 md:text-2xl">Cuatro servicios en una sola ruta</p>
+
       <p class="md:text-2xl">
         "Con xidoo rutas puedes llegar a donde quieras, buscar productos de tu
         agrado y conocer aun mas de la ciudad gracias a sus funciones."
       </p>
     </div>
-    <div class="shadow-stone-800 shadow-lg">
+    <div>
       <img
         src="https://res.cloudinary.com/dnaokhykr/image/upload/v1694190021/p1_hl4r0s.png"
         alt=""
@@ -108,7 +109,7 @@ import Layout from "../layouts/Layout.astro";
   </section>
 
   <div class="w-full bg-black">
-    <div class="mt-40 mx-[10%]">
+    <div class="mt-10 mx-[10%]">
       <div class="flex items-center">
         <div class="">
           <img
@@ -178,15 +179,15 @@ import Layout from "../layouts/Layout.astro";
     </div>
   </div>
 
-  <article class="container">
-    <div class="my-20 md:mx-[25%] text-center">
-      <h3 class="text-[#ffde59] text-4xl">Conoce todo lo que Xidoo Rutas ofrece</h3>
-      <p class="text-lg">
-        Tenemos una variedad de servicios pensados especialmente para los
-        salmantinos, cada uno de ellos tiene una utilidad que satisface
-        necesidades que la ciudad ha tenido por años y ahora gracias a la
-        tecnologia podemos resolver.
-      </p>
-    </div>
-  </article>
+  <div class="container mx-auto lg:text-center my-20">
+    <h3 class="mx-[12%] text-[#ffde59] text-4xl font-bold">
+      Conoce todo lo que Xidoo Rutas ofrece
+    </h3>
+    <p class="mx-[12%] text-lg">
+      Tenemos una variedad de servicios pensados especialmente para los
+      salmantinos, cada uno de ellos tiene una utilidad que satisface
+      necesidades que la ciudad ha tenido por años y ahora gracias a la
+      tecnologia podemos resolver.
+    </p>
+  </div>
 </Layout>

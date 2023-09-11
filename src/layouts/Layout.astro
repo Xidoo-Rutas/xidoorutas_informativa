@@ -1,32 +1,52 @@
 ---
-import Footer from '../components/Footer.astro';
-import Navbar from '../components/Navbar.astro';
+import Footer from "../components/Footer.astro";
+import Navbar from "../components/Navbar.astro";
+import {ViewTransitions} from 'astro:transitions';
 interface Props {
-	title: string;
+  title: string;
 }
-
 const { title } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="Xidoo Rutas informativa" content="Pagina web informativa sobre Xidoo Rutas. Visita beta.xidoorutas.com" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="https://res.cloudinary.com/dnaokhykr/image/upload/v1694183121/favicon_ovcpr8.png" />
-		<meta name="Xidoo Rutas" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<Navbar/>
-		<slot />
-		<Footer/>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="Xidoo Rutas informativa"
+      content="Pagina web informativa sobre Xidoo Rutas. Visita beta.xidoorutas.com"
+    />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://res.cloudinary.com/dnaokhykr/image/upload/v1694183121/favicon_ovcpr8.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Prompt:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="Xidoo Rutas" content={Astro.generator} />
+    <title>{title}</title>
+    <ViewTransitions />
+  </head>
+  <body class="md:[margin-top:100px]">
+    <Navbar />
+    <slot />
+    <Footer />
+  </body>
 </html>
 <style is:global>
-	html {
-		background: #13151a;
-		color: white;
-	}
+  html {
+    background: #13151a;
+    color: white;
+  }
+  * {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  /* font-family: "Prompt", sans-serif; */
 </style>

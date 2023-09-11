@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="404 Ruta no encontrada">
+  <div class="md:flex items-end justify-between mx-[10%] mt-20 md:mt-0 " transition:animate="fade">
+    <div class="md:relative">
+      <div class=" md:absolute text-center">
+        <h1 class="font-extrabold text-[#ffde59] text-3xl uppercase">
+          Uh-Oh... !PARECE QUE NO ENCONTRAMOS ESA RUTA!
+        </h1>
+        <p class="text-xl">
+          Lo sentimos, pero a no ser que tengas MAPS... Nosotros no tenemos ruta
+          para allá.
+        </p>
+      </div>
+      <img
+        src="https://images.imyfone.com/imyfonees/assets/other/404/404-image.png"
+        class=""
+      />
+    </div>
+    <div class="grid place-items-center relative">
+      <img
+        src="https://res.cloudinary.com/drbsuiyrd/image/upload/v1680718777/404_nrw0te.png"
+        class="w-[60%]"
+      />
+    </div>
+  </div>
+</Layout>
