@@ -2,42 +2,39 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Trayectoría">
+<Layout title="Trayectoría XIDOO RUTAS">
   <div
     class="container mx-auto my-20 md:mt-0 flex flex-col items-center justify-center lg:flex-row"
-    transition:animate="slide"
   >
-    <h1 class="font-extrabold text-[#ffde59] text-2xl uppercase">
-      Junio 2021
-    </h1>
+    <h1 class="font-extrabold text-[#ffde59] text-2xl uppercase">Junio 2021</h1>
   </div>
   <div class="container mx-auto grid">
-
-    <div class="grid justify-center">
-        <div
-          class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-[#e7e3e3]"
-        >
-          <div class="w-full md:w-1/3 grid place-items-center">
-            <img
-              src="https://xidoorutas.com/Assets/prototype.png"
-              alt="tailwind logo"
-              class="rounded-xl"
-            />
+    <div class="grid justify-center" transition:animate="slide">
+      <div
+        class="lg:h-[110%] relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-[#e7e3e3]"
+      >
+        <div class="w-full md:w-1/3 grid place-items-center">
+          <img
+            src="https://xidoorutas.com/Assets/prototype.png"
+            alt="tailwind logo"
+            class="rounded-xl"
+          />
+        </div>
+        <div class="w-full md:w-2/3 flex flex-col space-y-2 p-3">
+          <div class="flex justify-between item-center">
+            <p class="text-gray-500 font-medium block">Junio 2021</p>
           </div>
-          <div class="w-full md:w-2/3 flex flex-col space-y-2 p-3">
-            <div class="flex justify-between item-center">
-              <p class="text-gray-500 font-medium block">Junio 2021</p>
-            </div>
-            <h3 class="font-black text-gray-800 md:text-3xl text-xl">
-              Primer prototipo
-            </h3>
-            <p class="md:text-lg text-gray-500 text-base">
-              Los primeros prototipos funcionales de Xidoo Rutas fueron increíbles, dichos prototipos ofrecían diversas funcionalidades aunque limitadas, eran extraordinarias.
-            </p>
-          </div>
+          <h3 class="font-black text-gray-800 md:text-3xl text-xl">
+            Primer prototipo
+          </h3>
+          <p class="md:text-lg font-semibold text-gray-500 text-base">
+            Los primeros prototipos funcionales de Xidoo Rutas fueron
+            increíbles, dichos prototipos ofrecían diversas funcionalidades
+            aunque limitadas, eran extraordinarias.
+          </p>
         </div>
       </div>
-      
+    </div>
 
     <div class="flex justify-between p-3">
       <a href="/trajectory2">
