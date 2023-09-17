@@ -1,4 +1,4 @@
-[
+export const timeline = [
     {
         "date": "Septiembre 2020",
         "description": "Xidoo Rutas fue planteado como una idea de un posible proyecto escolar, en un inicio, el proyecto era una aplicación de rutas, sin embargo el equipo de desarrollo concluyo que se debían agregar otras funciones para que Xidoo Rutas sea una app única.",
