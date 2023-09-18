@@ -37,7 +37,7 @@ export const xidooRutasTeam = [
     {
         "description": "Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño.",
         "images": {
-            "image1": "https://res.cloudinary.com/dnaokhykr/image/upload/v1694832339/xr/asur_dmgqsc.jpg",
+            "image1": "https://res.cloudinary.com/dnaokhykr/image/upload/v1695052891/asur_gv5bmz.jpg",
             "image2": "https://res.cloudinary.com/dnaokhykr/image/upload/v1694829688/xr/asur2_bosqof.jpg"
         },
         "name": "Asur García Salazar",
